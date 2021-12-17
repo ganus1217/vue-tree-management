@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DD>
+	<SHORT> Tree (te),(di),(dr),(at),(vt),(al),(bl),(ii) tree structure </SHORT>
+	<!-- Tree te),(di),(dr),(at),(vt),(al),(bl),(ii) Element -->
+	<treete_element> 
+		<id>0001</id>
+		<parent_id>0 </parent_id>
+		<type>"te" </type>
+		<sort_code>"000001"</sort_code> 
+		<description>Roman </description >
+    	<fieldA>basic.xml </fieldA>   <!-- take this value from the dialog --> 
+		<fieldB>basic1.xml </fieldB>   <!-- take this value from the dialog --> 
+		<fieldC>image1.jpg </fieldC>    <!-- take this value from the dialog --> 
+		<status>"Y" </status>     <!-- take this value from the dialog      Y (yes) , N - No--> 
+		<flags mask="AVTQSPOM" >"10101011"</flags> <!-- take this value from the dialog  check= 1 , empty =0   --> 
+		<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update > <!-- system date + time when you create item --> 
+		<nodes>
+			<id>"0001.0001"</id>
+			<parent_id>0001 </parent_id>
+			<type>"te" </type>
+			<sort_code>"000001"</sort_code> 
+			<description> Jenny </description >
+			<fieldA>basic.xml </fieldA>
+			<fieldB>basic1.xml </fieldB>
+			<fieldC>image1.jpg </fieldC>
+			<status>"Y" </status>
+			<flags mask="AVTQSPOM" >"10101011"</flags> 
+			<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update > 
+			<nodes>
+				<id>0001.0001.0001</id>
+				<parent_id>0001.0001</parent_id>
+				<type>"te" </type>
+				<sort_code>"000001"</sort_code> 
+				<description> Jenny </description >
+				<fieldA>basic.xml </fieldA>
+				<fieldB>basic1.xml </fieldB>
+				<fieldC>image1.jpg </fieldC>
+				<status>"Y" </status>
+				<flags mask="AVTQSPOM" >"10101011"</flags> 
+				<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update > 
+				<nodes></nodes>
+			</nodes>
+			<nodes>
+				<id>0001.0001.0002</id>
+				<parent_id>0001.0001</parent_id>
+				<type>"te" </type>
+				<sort_code>"000001"</sort_code> 
+				<description> Jenny </description >
+				<fieldA>basic.xml </fieldA>
+				<fieldB>basic1.xml </fieldB>
+				<fieldC>image1.jpg </fieldC>
+				<status>"Y" </status>
+				<flags mask="AVTQSPOM" >"10101011"</flags> 
+				<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update > 
+				<nodes></nodes>
+			</nodes>
+		</nodes>
+		<nodes>
+			<id>0001.0002</id>
+			<parent_id>0001</parent_id>
+			<type>"te" </type>
+			<sort_code>"000001"</sort_code> 
+			<description> Jenny </description >
+			<fieldA>basic.xml </fieldA>
+			<fieldB>basic1.xml </fieldB>
+			<fieldC>image1.jpg </fieldC>
+			<status>"Y" </status>
+			<flags mask="AVTQSPOM" >"10101011"</flags> 
+			<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update > 
+			<nodes></nodes>
+		</nodes>
+ 	</treete_element>
+	<treete_element  > 
+		<id>0002</id>
+		<parent_id>0</parent_id>
+		<type>"te" </type>
+		<sort_code>"000001"</sort_code> 
+		<description> Jenny </description >
+        <fieldA>basic.xml </fieldA>
+		<fieldB>basic1.xml </fieldB>
+		<fieldC>image1.jpg </fieldC>
+		<status>"Y" </status>
+		<flags mask="AVTQSPOM" >"10101011"</flags> 
+		<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update >
+		<nodes>
+			<id>0002.0001</id>
+			<parent_id>0002</parent_id>
+			<type>"te" </type>
+			<sort_code>"000001"</sort_code> 
+			<description> Jenny </description >
+			<fieldA>basic.xml </fieldA>
+			<fieldB>basic1.xml </fieldB>
+			<fieldC>image1.jpg </fieldC>
+			<status>"Y" </status>
+			<flags mask="AVTQSPOM" >"10101011"</flags> 
+			<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update > 
+			<nodes></nodes>
+ 		</nodes>
+		<nodes>
+			<id>0002.0002</id>
+			<parent_id>0002</parent_id>
+			<type>"te" </type>
+			<sort_code>"000001"</sort_code> 
+			<description> Jenny </description >
+			<fieldA>basic.xml </fieldA>
+			<fieldB>basic1.xml </fieldB>
+			<fieldC>image1.jpg </fieldC>
+			<status>"Y" </status>
+			<flags mask="AVTQSPOM" >"10101011"</flags> 
+			<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update > 
+			<nodes></nodes>
+		</nodes>
+ 	</treete_element>
+ 	<treete_element > 
+	 	<id>0003</id>
+		<parent_id>0</parent_id>
+		<type>"te" </type>
+		<sort_code>"0000011"</sort_code> 
+		<description> level 1 branch s </description >
+        <fieldA>basic.xml </fieldA>
+		<fieldB>basic1.xml </fieldB>
+		<fieldC>image1.jpg </fieldC>
+		<status>"Y" </status>
+		<flags mask="AVTQSPOM" >"10101011"</flags> 
+		<last_update mask="YYYYMMDDHHMMSS" >20211210131313</last_update > 
+		<nodes></nodes>
+ 	</treete_element> 
+ 	<treete_element > 
+		<id>0004</id>
+		<parent_id>0</parent_id>
+		<type>"te" </type>
+		<sort_code>"2500.10"</sort_code> 
+		<description> level 2 branch s </description >
+        <fieldA>basic.xml </fieldA>
+		<fieldB>basic1.xml </fieldB>
+		<fieldC>image1.jpg </fieldC>
+		<status>"Y" </status>
+		<flags mask="AVTQSPOM" >"10101011"</flags> 
+		<last_update mask="YYYYMMDDHHMMSS" >20211210131313</last_update > 
+		<nodes></nodes>
+ 	</treete_element>
+ 	<treete_element > 
+	 	<id>0005</id>
+		<parent_id>0</parent_id>
+		<type>"te" </type>
+		<sort_code>"2500.10.10"</sort_code> 
+		<description> level 3 branch s </description >
+        <fieldA>basic.xml </fieldA>
+		<fieldB>basic1.xml </fieldB>
+		<fieldC>image1.jpg </fieldC>
+		<status>"Y" </status>
+		<flags mask="AVTQSPOM" >"10101011"</flags> 
+		<last_update mask="YYYYMMDDHHMMSS" >20211210131313</last_update > 
+		<nodes></nodes>
+ 	</treete_element>
+ 	<treete_element > 
+		<id>0006</id>
+		<parent_id>0</parent_id>
+		<type>"te" </type>
+		<sort_code>"0000015"</sort_code> 
+		<description> level 1 branch s </description >
+        <fieldA>basic.xml </fieldA>
+		<fieldB>basic1.xml </fieldB>
+		<fieldC>image1.jpg </fieldC>
+		<status>"Y" </status>
+		<flags mask="AVTQSPOM" >"10101011"</flags> 
+		<last_update mask="YYYYMMDDHHMMSS" >20211210141414</last_update >
+		<nodes>
+			<id>0006.0001</id>
+			<parent_id>0006 </parent_id>
+			<type>"te" </type>
+			<sort_code>"000001"</sort_code> 
+			<description> Jenny </description >
+			<fieldA>basic.xml </fieldA>
+			<fieldB>basic1.xml </fieldB>
+			<fieldC>image1.jpg </fieldC>
+			<status>"Y" </status>
+			<flags mask="AVTQSPOM" >"10101011"</flags> 
+			<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update > 
+			<nodes></nodes>
+ 		</nodes>
+		<nodes>	 
+			<id>0006.0002</id>
+			<parent_id>0006</parent_id>
+			<type>"te" </type>
+			<sort_code>"000001"</sort_code> 
+			<description> Jenny </description >
+			<fieldA>basic.xml </fieldA>
+			<fieldB>basic1.xml </fieldB>
+			<fieldC>image1.jpg </fieldC>
+			<status>"Y" </status>
+			<flags mask="AVTQSPOM" >"10101011"</flags> 
+			<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update > 
+			<nodes>
+				<id>0006.0002.0001</id>
+				<parent_id>0006.0002</parent_id>
+				<type>"te" </type>
+				<sort_code>"000001"</sort_code> 
+				<description> Jenny </description >
+				<fieldA>basic.xml </fieldA>
+				<fieldB>basic1.xml </fieldB>
+				<fieldC>image1.jpg </fieldC>
+				<status>"Y" </status>
+				<flags mask="AVTQSPOM" >"10101011"</flags> 
+				<last_update mask="YYYYMMDDHHMMSS" >20211210121212</last_update > 
+				<nodes></nodes>		
+			</nodes>
+		</nodes>  
+ 	</treete_element>	
+ </DD>

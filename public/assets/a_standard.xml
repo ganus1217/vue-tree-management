@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <element>
+      <checkable>true</checkable>
+      <id>1</id>
+      <nodes>
+         <id>7</id>
+         <nodes>
+            <id>9</id>
+            <text>Grandchild 1</text>
+         </nodes>
+         <nodes>
+            <id>10</id>
+            <text>Grandchild 2</text>
+         </nodes>
+         <state>
+            <checked>true</checked>
+         </state>
+         <text>Child 1</text>
+      </nodes>
+      <nodes>
+         <id>8</id>
+         <text>Child 2</text>
+      </nodes>
+      <text>Root 1</text>
+      <definition>First Node</definition>
+   </element>
+   <element>
+      <checkable>true</checkable>
+      <id>2</id>
+      <nodes>
+         <id>11</id>
+         <nodes>
+            <id>13</id>
+            <text>Grandchild 1</text>
+         </nodes>
+         <nodes>
+            <id>14</id>
+            <text>Grandchild 2</text>
+         </nodes>
+         <state>
+            <checked>true</checked>
+         </state>
+         <text>Child 1</text>
+      </nodes>
+      <nodes>
+         <id>12</id>
+         <text>Child 2</text>
+      </nodes>
+      <text>Root 2</text>
+      <definition>First Node</definition>
+   </element>
+   <element>
+      <checkable>true</checkable>
+      <id>3</id>
+      <text>Root 3</text>
+      <definition>Third Node</definition>
+   </element>
+   <element>
+      <id>4</id>
+      <text>Root 4</text>
+      <definition>Fourth Node</definition>
+   </element>
+   <element>
+      <id>5</id>
+      <text>Root 5</text>
+      <definition>Fifth Node</definition>
+   </element>
+   <element>
+      <id>6</id>
+      <text>Root 6</text>
+      <definition>Sixth Node</definition>
+   </element>
+   <element>
+      <id>7</id>
+      <text>Root 7</text>
+      <definition>Second Node</definition>
+   </element>
+</root>
